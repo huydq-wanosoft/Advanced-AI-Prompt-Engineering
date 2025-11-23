@@ -1,11 +1,11 @@
-# Lộ Trình Học AI Prompt Engineering (24/11 - 31/12/2024)
+# Lộ Trình Học AI Prompt Engineering (24/11 - 31/12/2025)
 
 ## Tổng Quan
 
 Lộ trình học có cấu trúc trong 5 tuần để tiến từ cơ bản lên nâng cao về AI prompt engineering, với 4 buổi học mỗi tuần (Thứ Hai, Thứ Tư, Thứ Sáu + Chủ Nhật ôn tập), tập trung vào phát triển phần mềm sử dụng LLMs (ChatGPT, Claude, Gemini) và coding AI (GitHub Copilot, Cursor).
 
 **Lịch học**: Tối Thứ Hai, Thứ Tư, Thứ Sáu + Tối Chủ Nhật (ôn tập)  
-**Thời gian**: 25/11 - 29/12/2024  
+**Thời gian**: 25/11 - 29/12/2025  
 **Tổng số buổi**: 20 buổi  
 **Mục tiêu**: Đạt trình độ nâng cao về prompt engineering cho phát triển phần mềm
 
@@ -15,28 +15,28 @@ Lộ trình học có cấu trúc trong 5 tuần để tiến từ cơ bản lê
 
 **Mục tiêu**: Thành thạo zero-shot, few-shot prompting và chain-of-thought reasoning cho việc tạo code và debugging
 
-### Thứ Hai - 25/11/2024
+### Thứ Hai - 25/11/2025
 - Đọc: Lý thuyết về Zero-shot vs Few-shot prompting
 - Thực hành: Viết 5 few-shot prompts để tạo REST API endpoints
 - Bài tập: Tạo database schema sử dụng few-shot examples
 - Ghi chép: Lưu các prompts thành công vào learning journal
 - **Kết quả mong đợi**: Hiểu khi nào dùng 0-shot vs few-shot, có 5 few-shot templates tái sử dụng được
 
-### Thứ Tư - 27/11/2024
+### Thứ Tư - 27/11/2025
 - Đọc: Các pattern few-shot nâng cao và cách chọn examples
 - Thực hành: Tạo React components với few-shot examples
 - Bài tập: Tạo TypeScript interfaces sử dụng pattern examples
 - Ghi chép: So sánh chất lượng output có/không có examples
 - **Kết quả mong đợi**: Biết chọn examples tối ưu, cải thiện độ chính xác tạo code 50%
 
-### Thứ Sáu - 29/11/2024
+### Thứ Sáu - 29/11/2025
 - Đọc: Kỹ thuật Chain-of-Thought (CoT) prompting
 - Thực hành: Dùng CoT để debug các lỗi logic phức tạp
 - Bài tập: Áp dụng CoT để refactor code có nhiều điều kiện lồng nhau
 - Ghi chép: Ghi chú những vấn đề nào hưởng lợi từ CoT
 - **Kết quả mong đợi**: Viết được step-by-step reasoning prompts cho debugging
 
-### Chủ Nhật - 01/12/2024 (Ôn Tập Tuần)
+### Chủ Nhật - 01/12/2025 (Ôn Tập Tuần)
 - Ôn tập: Những thành tựu tuần 1 và các prompt templates đã tạo
 - Thực hành: Self-consistency và multiple reasoning paths
 - Bài tập: Debug vấn đề multi-service architecture bằng CoT
@@ -55,28 +55,28 @@ Lộ trình học có cấu trúc trong 5 tuần để tiến từ cơ bản lê
 
 **Mục tiêu**: Học role-playing, structured frameworks, và advanced coding patterns cho công việc phát triển chuyên nghiệp
 
-### Thứ Hai - 02/12/2024
+### Thứ Hai - 02/12/2025
 - Đọc: Role-playing và persona patterns
 - Thực hành: Dùng role "expert system architect" để thiết kế API
 - Bài tập: Tạo microservices architecture với vai senior engineer
 - Ghi chép: So sánh outputs với các personas khác nhau
 - **Kết quả mong đợi**: Hiểu impact của persona, tạo 3 role templates
 
-### Thứ Tư - 04/12/2024
+### Thứ Tư - 04/12/2025
 - Đọc: Instruction-Context-Output framework
 - Thực hành: Cấu trúc prompts theo ICO pattern
 - Bài tập: Tạo documentation với context phù hợp
 - Ghi chép: Xây dựng ICO template library
 - **Kết quả mong đợi**: Có 5 ICO templates, cải thiện độ liên quan của output
 
-### Thứ Sáu - 06/12/2024
+### Thứ Sáu - 06/12/2025
 - Đọc: Code review prompts và kỹ thuật optimization
 - Thực hành: Review code CRM của bạn bằng AI
 - Bài tập: Tạo improvement suggestions cho 3 files
 - Ghi chép: Theo dõi chất lượng các suggestions
 - **Kết quả mong đợi**: Code review prompt template, tìm 5+ cải thiện thực tế
 
-### Chủ Nhật - 08/12/2024 (Ôn Tập Tuần)
+### Chủ Nhật - 08/12/2025 (Ôn Tập Tuần)
 - Ôn tập: Thành tựu tuần 2 và sự phát triển của template library
 - Thực hành: Advanced code review và refactoring prompts
 - Bài tập: Refactor legacy code với sự trợ giúp của AI
@@ -95,28 +95,28 @@ Lộ trình học có cấu trúc trong 5 tuần để tiến từ cơ bản lê
 
 **Mục tiêu**: Áp dụng prompt engineering vào phát triển phần mềm thực tế: architecture, API design, debugging, và performance optimization
 
-### Thứ Hai - 09/12/2024
+### Thứ Hai - 09/12/2025
 - Đọc: System design documentation generation
 - Thực hành: Tạo architecture docs cho CRM module
 - Bài tập: Tạo API documentation với examples
 - Ghi chép: Lưu architecture prompt patterns
 - **Kết quả mong đợi**: Architecture documentation template, hoàn thành CRM docs
 
-### Thứ Tư - 11/12/2024
+### Thứ Tư - 11/12/2025
 - Đọc: Database modeling và query optimization
 - Thực hành: Tạo database schema với relationships
 - Bài tập: Tối ưu 3 SQL queries chậm bằng AI
 - Ghi chép: Database prompt library
 - **Kết quả mong đợi**: DB design template, 3 queries đã được tối ưu
 
-### Thứ Sáu - 13/12/2024
+### Thứ Sáu - 13/12/2025
 - Đọc: Error analysis và root cause identification
 - Thực hành: Debug các issues giống production
 - Bài tập: Phân tích stack traces và logs
 - Ghi chép: Debugging workflow và prompts
 - **Kết quả mong đợi**: Production debugging template, giải quyết 3+ bugs phức tạp
 
-### Chủ Nhật - 15/12/2024 (Ôn Tập Tuần)
+### Chủ Nhật - 15/12/2025 (Ôn Tập Tuần)
 - Ôn tập: Thành tựu tuần 3 và ứng dụng thực tế
 - Thực hành: Performance và security analysis prompts
 - Bài tập: Security audit cho CRM authentication và tìm bottlenecks
@@ -136,28 +136,28 @@ Lộ trình học có cấu trúc trong 5 tuần để tiến từ cơ bản lê
 
 **Mục tiêu**: Thành thạo prompt chaining, multi-step workflows, và context management cho codebase lớn
 
-### Thứ Hai - 16/12/2024
+### Thứ Hai - 16/12/2025
 - Đọc: Prompt chaining và sequential prompts
 - Thực hành: Xây dựng 3-step code generation workflow
 - Bài tập: Chain prompts để implement feature
 - Ghi chép: Workflow templates và patterns
 - **Kết quả mong đợi**: Chain được 3+ prompts hiệu quả, hoàn thành 1 feature
 
-### Thứ Tư - 18/12/2024
+### Thứ Tư - 18/12/2025
 - Đọc: Context management across conversations
 - Thực hành: Duy trì context cho large refactoring
 - Bài tập: Làm việc trên multi-file feature sử dụng context
 - Ghi chép: Context injection strategies
 - **Kết quả mong đợi**: Context management template, xử lý 5+ file changes
 
-### Thứ Sáu - 20/12/2024
+### Thứ Sáu - 20/12/2025
 - Đọc: RAG và làm việc với documentation
 - Thực hành: Navigate unfamiliar library sử dụng AI
 - Bài tập: Implement feature với external API docs
 - Ghi chép: RAG prompt patterns
 - **Kết quả mong đợi**: Làm việc hiệu quả với libraries mới
 
-### Chủ Nhật - 22/12/2024 (Ôn Tập Tuần)
+### Chủ Nhật - 22/12/2025 (Ôn Tập Tuần)
 - Ôn tập: Thành tựu tuần 4 và advanced workflows
 - Thực hành: Hoàn thành multi-step workflow cho CRM feature thực tế
 - Bài tập: Test prompt chains với các scenarios khác nhau
@@ -176,28 +176,28 @@ Lộ trình học có cấu trúc trong 5 tuần để tiến từ cơ bản lê
 
 **Mục tiêu**: Tích hợp tất cả kỹ thuật vào production workflow, xây dựng prompt library toàn diện, thành thạo các tools cụ thể
 
-### Thứ Hai - 23/12/2024
+### Thứ Hai - 23/12/2025
 - Đọc: GitHub Copilot advanced features
 - Thực hành: Dùng Copilot cho TDD workflow
 - Bài tập: Tạo tests cho existing code
 - Ghi chép: Copilot optimization tips
 - **Kết quả mong đợi**: Nhanh gấp 2x với Copilot, test generation template
 
-### Thứ Tư - 25/12/2024 (Giáng Sinh - Tùy Chọn)
+### Thứ Tư - 25/12/2025 (Giáng Sinh - Tùy Chọn)
 - Đọc: Cursor AI composer và agent modes
 - Thực hành: Dùng Cursor cho complex refactoring
 - Bài tập: Multi-file feature với Cursor
 - Ghi chép: Cursor best practices
 - **Kết quả mong đợi**: Efficient Cursor workflows, hoàn thành 1 feature
 
-### Thứ Sáu - 27/12/2024
+### Thứ Sáu - 27/12/2025
 - Đọc: Claude Projects và custom instructions
 - Thực hành: Set up Claude project cho CRM work
 - Bài tập: Tạo custom instruction sets
 - Ghi chép: Claude optimization guide
 - **Kết quả mong đợi**: Optimized Claude workspace
 
-### Chủ Nhật - 29/12/2024 (Ôn Tập Tuần + Tổng Kết)
+### Chủ Nhật - 29/12/2025 (Ôn Tập Tuần + Tổng Kết)
 - Ôn tập: Hoàn thành hành trình 5 tuần và tổ chức prompt library
 - Thực hành: Prompt quality assurance và test trên các AI models
 - Bài tập: Tạo templates cho CRM work hàng ngày và build quick-reference guide
@@ -307,7 +307,7 @@ Mỗi thư mục chứa các template files và examples
 
 ## Mục Tiêu Cuối Cùng
 
-Đến ngày 31 tháng 12 năm 2024, bạn sẽ:
+Đến ngày 31 tháng 12 năm 2025, bạn sẽ:
 - Có 50+ production-ready prompt templates
 - Tạo code nhanh gấp 3 lần với chất lượng tốt hơn
 - Debug các issues phức tạp hiệu quả với AI
@@ -317,4 +317,5 @@ Mỗi thư mục chứa các template files và examples
 - Có phương pháp prompt engineering cá nhân riêng
 
 **Chúc bạn thành công trên hành trình prompt engineering! 🚀**
+
 
