@@ -1,0 +1,43 @@
+# Optional: Automatically label issues based on week and topic
+name: Auto Label Learning Issues
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  auto-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto label by week
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const title = context.payload.issue.title.toLowerCase();
+            const labels = [];
+            
+            // Week detection
+            if (title.includes('week 1')) labels.push('week-1');
+            if (title.includes('week 2')) labels.push('week-2');
+            if (title.includes('week 3')) labels.push('week-3');
+            if (title.includes('week 4')) labels.push('week-4');
+            if (title.includes('week 5')) labels.push('week-5');
+            
+            // Topic detection
+            if (title.includes('few-shot') || title.includes('zero-shot')) labels.push('few-shot');
+            if (title.includes('chain-of-thought') || title.includes('cot')) labels.push('chain-of-thought');
+            if (title.includes('role') || title.includes('persona')) labels.push('role-playing');
+            if (title.includes('debug')) labels.push('debugging');
+            if (title.includes('refactor')) labels.push('refactoring');
+            if (title.includes('test')) labels.push('testing');
+            if (title.includes('architecture')) labels.push('architecture');
+            
+            if (labels.length > 0) {
+              github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: labels
+              });
+            }
+
