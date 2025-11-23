@@ -1,9 +1,9 @@
 blank_issues_enabled: true
 contact_links:
   - name: 📚 Learning Roadmap
-    url: https://github.com/yourusername/crm/blob/main/AI_Prompt_Engineering_Roadmap_EN.md
+    url: https://github.com/huydq-wanosoft/Advanced-AI-Prompt-Engineering/blob/main/AI_Prompt_Engineering_Roadmap_EN.md 
     about: View the complete 5-week learning roadmap
-  - name: 🇻🇳 Lộ Trình Học (Vietnamese)
-    url: https://github.com/yourusername/crm/blob/main/AI_Prompt_Engineering_Roadmap_VN.md
+  - name: 📚 Lộ Trình Học (Vietnamese)
+    url: https://github.com/huydq-wanosoft/Advanced-AI-Prompt-Engineering/blob/main/AI_Prompt_Engineering_Roadmap_VN.md 
     about: Xem lộ trình học đầy đủ bằng tiếng Việt
 
