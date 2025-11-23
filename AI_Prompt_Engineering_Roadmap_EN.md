@@ -1,11 +1,11 @@
-# AI Prompt Engineering Roadmap (Nov 24 - Dec 31, 2024)
+# AI Prompt Engineering Roadmap (Nov 24 - Dec 31, 2025)
 
 ## Overview
 
 A 5-week structured learning roadmap to advance from basic to advanced AI prompt engineering, with 4 sessions per week (Monday, Wednesday, Friday + Sunday review), focused on software development using LLMs (ChatGPT, Claude, Gemini) and coding AI (GitHub Copilot, Cursor).
 
 **Schedule**: Monday, Wednesday, Friday evenings + Sunday evening (review)  
-**Duration**: Nov 25 - Dec 29, 2024  
+**Duration**: Nov 25 - Dec 29, 2025  
 **Total Sessions**: 20 sessions  
 **Goal**: Achieve advanced-level prompt engineering for software development
 
@@ -15,28 +15,28 @@ A 5-week structured learning roadmap to advance from basic to advanced AI prompt
 
 **Goal**: Master zero-shot, few-shot prompting and chain-of-thought reasoning for code generation and debugging
 
-### Monday - 25/11/2024
+### Monday - 25/11/2025
 - Read: Zero-shot vs Few-shot prompting theory
 - Practice: Write 5 few-shot prompts for generating REST API endpoints
 - Exercise: Create database schema using few-shot examples
 - Document: Save successful prompts in learning journal
 - **Expected Result**: Understand when to use 0-shot vs few-shot, have 5 reusable few-shot templates
 
-### Wednesday - 27/11/2024
+### Wednesday - 27/11/2025
 - Read: Advanced few-shot patterns and example selection
 - Practice: Generate React components with few-shot examples
 - Exercise: Create TypeScript interfaces using pattern examples
 - Document: Compare output quality with/without examples
 - **Expected Result**: Can select optimal examples, improve code generation accuracy by 50%
 
-### Friday - 29/11/2024
+### Friday - 29/11/2025
 - Read: Chain-of-Thought (CoT) prompting techniques
 - Practice: Use CoT for debugging complex logic errors
 - Exercise: Apply CoT to refactor nested conditional code
 - Document: Note which problems benefit from CoT
 - **Expected Result**: Can write step-by-step reasoning prompts for debugging
 
-### Sunday - 01/12/2024 (Weekly Review)
+### Sunday - 01/12/2025 (Weekly Review)
 - Review: Week 1 accomplishments and prompt templates created
 - Practice: Self-consistency and multiple reasoning paths
 - Exercise: Debug multi-service architecture issue using CoT
@@ -55,28 +55,28 @@ A 5-week structured learning roadmap to advance from basic to advanced AI prompt
 
 **Goal**: Learn role-playing, structured frameworks, and advanced coding patterns for professional development work
 
-### Monday - 02/12/2024
+### Monday - 02/12/2025
 - Read: Role-playing and persona patterns
 - Practice: Use "expert system architect" role for API design
 - Exercise: Generate microservices architecture as senior engineer
 - Document: Compare outputs with different personas
 - **Expected Result**: Understand persona impact, create 3 role templates
 
-### Wednesday - 04/12/2024
+### Wednesday - 04/12/2025
 - Read: Instruction-Context-Output framework
 - Practice: Structure prompts using ICO pattern
 - Exercise: Generate documentation with proper context
 - Document: Build ICO template library
 - **Expected Result**: Have 5 ICO templates, improve output relevance
 
-### Friday - 06/12/2024
+### Friday - 06/12/2025
 - Read: Code review prompts and optimization techniques
 - Practice: Review your CRM code using AI
 - Exercise: Generate improvement suggestions for 3 files
 - Document: Track quality of suggestions
 - **Expected Result**: Code review prompt template, find 5+ real improvements
 
-### Sunday - 08/12/2024 (Weekly Review)
+### Sunday - 08/12/2025 (Weekly Review)
 - Review: Week 2 accomplishments and template library growth
 - Practice: Advanced code review and refactoring prompts
 - Exercise: Refactor legacy code with AI assistance
@@ -95,28 +95,28 @@ A 5-week structured learning roadmap to advance from basic to advanced AI prompt
 
 **Goal**: Apply prompt engineering to real software development: architecture, API design, debugging, and performance optimization
 
-### Monday - 09/12/2024
+### Monday - 09/12/2025
 - Read: System design documentation generation
 - Practice: Generate architecture docs for CRM module
 - Exercise: Create API documentation with examples
 - Document: Save architecture prompt patterns
 - **Expected Result**: Architecture documentation template, complete CRM docs
 
-### Wednesday - 11/12/2024
+### Wednesday - 11/12/2025
 - Read: Database modeling and query optimization
 - Practice: Generate database schema with relationships
 - Exercise: Optimize 3 slow SQL queries using AI
 - Document: Database prompt library
 - **Expected Result**: DB design template, 3 optimized queries
 
-### Friday - 13/12/2024
+### Friday - 13/12/2025
 - Read: Error analysis and root cause identification
 - Practice: Debug production-like issues
 - Exercise: Analyze stack traces and logs
 - Document: Debugging workflow and prompts
 - **Expected Result**: Production debugging template, solve 3+ complex bugs
 
-### Sunday - 15/12/2024 (Weekly Review)
+### Sunday - 15/12/2025 (Weekly Review)
 - Review: Week 3 accomplishments and real-world applications
 - Practice: Performance and security analysis prompts
 - Exercise: Security audit of CRM authentication and identify bottlenecks
@@ -136,28 +136,28 @@ A 5-week structured learning roadmap to advance from basic to advanced AI prompt
 
 **Goal**: Master prompt chaining, multi-step workflows, and context management for large codebases
 
-### Monday - 16/12/2024
+### Monday - 16/12/2025
 - Read: Prompt chaining and sequential prompts
 - Practice: Build 3-step code generation workflow
 - Exercise: Chain prompts for feature implementation
 - Document: Workflow templates and patterns
 - **Expected Result**: Can chain 3+ prompts effectively, complete 1 feature
 
-### Wednesday - 18/12/2024
+### Wednesday - 18/12/2025
 - Read: Context management across conversations
 - Practice: Maintain context for large refactoring
 - Exercise: Work on multi-file feature using context
 - Document: Context injection strategies
 - **Expected Result**: Context management template, handle 5+ file changes
 
-### Friday - 20/12/2024
+### Friday - 20/12/2025
 - Read: RAG and working with documentation
 - Practice: Navigate unfamiliar library using AI
 - Exercise: Implement feature with external API docs
 - Document: RAG prompt patterns
 - **Expected Result**: Can work with new libraries efficiently
 
-### Sunday - 22/12/2024 (Weekly Review)
+### Sunday - 22/12/2025 (Weekly Review)
 - Review: Week 4 accomplishments and advanced workflows
 - Practice: Complete multi-step workflow for real CRM feature
 - Exercise: Test prompt chains across different scenarios
@@ -176,28 +176,28 @@ A 5-week structured learning roadmap to advance from basic to advanced AI prompt
 
 **Goal**: Integrate all techniques into production workflow, build comprehensive prompt library, master specific tools
 
-### Monday - 23/12/2024
+### Monday - 23/12/2025
 - Read: GitHub Copilot advanced features
 - Practice: Use Copilot for TDD workflow
 - Exercise: Generate tests for existing code
 - Document: Copilot optimization tips
 - **Expected Result**: 2x faster with Copilot, test generation template
 
-### Wednesday - 25/12/2024 (Christmas - Optional)
+### Wednesday - 25/12/2025 (Christmas - Optional)
 - Read: Cursor AI composer and agent modes
 - Practice: Use Cursor for complex refactoring
 - Exercise: Multi-file feature with Cursor
 - Document: Cursor best practices
 - **Expected Result**: Efficient Cursor workflows, complete 1 feature
 
-### Friday - 27/12/2024
+### Friday - 27/12/2025
 - Read: Claude Projects and custom instructions
 - Practice: Set up Claude project for CRM work
 - Exercise: Create custom instruction sets
 - Document: Claude optimization guide
 - **Expected Result**: Optimized Claude workspace
 
-### Sunday - 29/12/2024 (Weekly Review + Final)
+### Sunday - 29/12/2025 (Weekly Review + Final)
 - Review: Complete 5-week journey and organize prompt library
 - Practice: Prompt quality assurance and test across AI models
 - Exercise: Create templates for daily CRM work and build quick-reference guide
@@ -307,7 +307,7 @@ Each folder contains template files and examples
 
 ## Final Goal
 
-By December 31, 2024, you will:
+By December 31, 2025, you will:
 - Have 50+ production-ready prompt templates
 - Generate code 3x faster with better quality
 - Debug complex issues efficiently with AI
@@ -317,4 +317,5 @@ By December 31, 2024, you will:
 - Have a personal prompt engineering methodology
 
 **Good luck on your prompt engineering journey! 🚀**
+
 
