@@ -45,7 +45,7 @@
 ### Step 1: Create Daily Learning Issue
 1. Go to **Issues** → **New Issue**
 2. Select **"Daily Learning Session"** template
-3. Fill in the title: `[Week 1] Day 1 - Few-shot Prompting - 25/11/2024`
+3. Fill in the title: `[Week 1] Day 1 - Few-shot Prompting - 25/11/2025`
 4. Add labels: `week-1`, `learning-journal`, `few-shot`
 5. Fill in the template as you learn
 
@@ -101,7 +101,7 @@ is:issue label:weekly-review is:closed
 
 ### Find issues by date:
 ```
-created:2024-11-25..2024-12-01
+created:2025-11-25..2025-12-01
 ```
 
 ---
@@ -178,7 +178,7 @@ Add issues to appropriate milestones to track progress.
 
 ### Create Issue from Command Line
 ```bash
-gh issue create --title "[Week 1] Day 1 - Few-shot - 25/11/2024" --label "week-1,learning-journal"
+gh issue create --title "[Week 1] Day 1 - Few-shot - 25/11/2025" --label "week-1,learning-journal"
 ```
 
 ### List This Week's Issues

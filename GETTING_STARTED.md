@@ -134,23 +134,23 @@ Go to **Issues** → **Milestones** → **New milestone**
 Create 5 milestones:
 
 1. **Week 1: Advanced Fundamentals**
-   - Due: December 1, 2024
+   - Due: December 1, 2025
    - Description: Master zero-shot, few-shot, and chain-of-thought
 
 2. **Week 2: Prompt Patterns**
-   - Due: December 8, 2024
+   - Due: December 8, 2025
    - Description: Learn role-playing and structured frameworks
 
 3. **Week 3: Domain-Specific**
-   - Due: December 15, 2024
+   - Due: December 15, 2025
    - Description: Apply to architecture, debugging, performance
 
 4. **Week 4: Advanced Techniques**
-   - Due: December 22, 2024
+   - Due: December 22, 2025
    - Description: Master prompt chaining and context management
 
 5. **Week 5: Mastery & Integration**
-   - Due: December 29, 2024
+   - Due: December 29, 2025
    - Description: Integrate everything, build prompt library
 
 ---
@@ -174,7 +174,7 @@ Create columns:
 1. **Open GitHub** → Go to your repo → Click **Issues**
 2. Click **New Issue**
 3. Select **"Daily Learning Session"** template
-4. Fill in the title: `[Week 1] Day 1 - Few-shot Prompting - 25/11/2024`
+4. Fill in the title: `[Week 1] Day 1 - Few-shot Prompting - 25/11/2025`
 5. Add labels: `week-1`, `learning-journal`
 6. Assign to milestone: `Week 1: Advanced Fundamentals`
 7. Click **Submit new issue**
@@ -270,7 +270,7 @@ Check off exercises as you complete them:
 1. **Create Weekly Review Issue**:
    - Click **New Issue**
    - Select **"Weekly Review"** template
-   - Title: `[Week 1] Review - 25/11 to 01/12/2024`
+   - Title: `[Week 1] Review - 25/11 to 01/12/2025`
    - Labels: `weekly-review`, `week-1`
    - Milestone: `Week 1: Advanced Fundamentals`
 
@@ -465,11 +465,11 @@ For your first session:
 
 ## 🚀 Ready to Start!
 
-You're all set! Your learning journey begins on **Monday, November 25, 2024**.
+You're all set! Your learning journey begins on **Monday, November 25, 2025**.
 
 **Your first session**:
 1. Open the roadmap: `AI_Prompt_Engineering_Roadmap_EN.md`
-2. Go to **Week 1: Monday - 25/11/2024**
+2. Go to **Week 1: Monday - 25/11/2025**
 3. Create your first daily learning issue
 4. Start learning!
 
