@@ -4,6 +4,9 @@ name: Auto Label Learning Issues
 on:
   issues:
     types: [opened, edited]
+  
+permissions:
+  issues: write  
 
 jobs:
   auto-label:
@@ -40,4 +43,5 @@ jobs:
                 labels: labels
               });
             }
+
 
