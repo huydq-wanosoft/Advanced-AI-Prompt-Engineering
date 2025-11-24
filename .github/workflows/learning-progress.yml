@@ -4,35 +4,22 @@ name: Auto Label Learning Issues
 on:
   issues:
     types: [opened, edited]
-  
+
 permissions:
-  issues: write  
+  issues: write
 
 jobs:
   auto-label:
     runs-on: ubuntu-latest
     steps:
-      - name: Provide PERSONAL_TOKEN to environment
-        shell: bash
-        run: |
-          if [ -z "${{ secrets.PERSONAL_TOKEN }}" ]; then
-            echo "PERSONAL_TOKEN secret not found. Create a repo secret named PERSONAL_TOKEN with a PAT that has repo scope." >&2
-            exit 1
-          fi
-          # Persist the PAT to GITHUB_ENV for subsequent steps (do not print the token).
-          echo "PERSONAL_TOKEN=${{ secrets.PERSONAL_TOKEN }}" >> $GITHUB_ENV
-
       - name: Auto label by week
         uses: actions/github-script@v6
         env:
-          PERSONAL_TOKEN: ${{ env.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the built-in token
         with:
           script: |
-            if (!process.env.PERSONAL_TOKEN) {
-              throw new Error('PERSONAL_TOKEN not found. Create a repo secret named PERSONAL_TOKEN with a PAT that has repo scope.');
-            }
-            const octokit = github.getOctokit(process.env.PERSONAL_TOKEN);
-
+            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+            
             const title = context.payload.issue.title.toLowerCase();
             const labels = [];
             
@@ -60,5 +47,3 @@ jobs:
                 labels: labels
               });
             }
-
-
