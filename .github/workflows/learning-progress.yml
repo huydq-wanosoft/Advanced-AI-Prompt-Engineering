@@ -5,27 +5,16 @@ on:
   issues:
     types: [opened, edited]
 
-# Optional: You can set default permissions for the entire workflow here if needed
-# permissions:
-#   issues: write
-
 jobs:
   auto-label:
     runs-on: ubuntu-latest
-    # CRITICAL: Grant write permission to the default GITHUB_TOKEN for THIS specific job
     permissions:
       issues: write
     steps:
       - name: Auto label by week
         uses: actions/github-script@v6
-        # The GITHUB_TOKEN is used automatically by the action.
-        # We removed the 'env' block referencing PERSONAL_TOKEN.
         with:
           script: |
-            // The 'github' object provided by actions/github-script
-            // is already authenticated using the job's GITHUB_TOKEN.
-            // const octokit = github.getOctokit(process.env.GITHUB_TOKEN); <-- This line is removed/commented out.
-
             const title = context.payload.issue.title.toLowerCase();
             const labels = [];
 
@@ -44,6 +33,17 @@ jobs:
             if (title.includes('refactor')) labels.push('refactoring');
             if (title.includes('test')) labels.push('testing');
             if (title.includes('architecture')) labels.push('architecture');
+
+            // Tool detection
+            if (title.includes('copilot')) labels.push('copilot');
+            if (title.includes('cursor')) labels.push('cursor');
+            if (title.includes('claude') || title.includes('sonnet')) labels.push('claude');
+            if (title.includes('gpt') || title.includes('chatgpt')) labels.push('chatgpt');
+            if (title.includes('gemini')) labels.push('gemini');
+
+            // Weekly review detection
+            const dayMatch = title.match(/Day (\d+)/);
+            if(dayMatch) labels.push(dayMatch[1] === '4' ? 'weekly-review' : 'learning-journal');
 
             if (labels.length > 0) {
               await github.rest.issues.addLabels({
