@@ -15,7 +15,7 @@ jobs:
       - name: Auto label by week
         uses: actions/github-script@v6
         env:
-          PAT_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         with:
           script: |
             const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
