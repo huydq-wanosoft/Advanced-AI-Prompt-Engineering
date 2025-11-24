@@ -5,20 +5,26 @@ on:
   issues:
     types: [opened, edited]
 
-permissions:
-  issues: write
+# Optional: You can set default permissions for the entire workflow here if needed
+# permissions:
+#   issues: write
 
 jobs:
   auto-label:
     runs-on: ubuntu-latest
+    # CRITICAL: Grant write permission to the default GITHUB_TOKEN for THIS specific job
+    permissions:
+      issues: write
     steps:
       - name: Auto label by week
         uses: actions/github-script@v6
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        # The GITHUB_TOKEN is used automatically by the action.
+        # We removed the 'env' block referencing PERSONAL_TOKEN.
         with:
           script: |
-            const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
+            // The 'github' object provided by actions/github-script
+            // is already authenticated using the job's GITHUB_TOKEN.
+            // const octokit = github.getOctokit(process.env.GITHUB_TOKEN); <-- This line is removed/commented out.
 
             const title = context.payload.issue.title.toLowerCase();
             const labels = [];
@@ -40,7 +46,7 @@ jobs:
             if (title.includes('architecture')) labels.push('architecture');
 
             if (labels.length > 0) {
-              await octokit.rest.issues.addLabels({
+              await github.rest.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: context.issue.number,
